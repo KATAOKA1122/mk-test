@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: eks-sample-linux-service2
+  name: eks-sample-linux-service
   namespace: kataokaap5
   labels:
-    app: eks-sample-linux-app2
+    app: eks-sample-linux-app
 spec:
   selector:
-    app: eks-sample-linux-app2
+    app: eks-sample-linux-app
   ports:
     - protocol: TCP
       port: 80

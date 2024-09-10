@@ -4,16 +4,16 @@ metadata:
   name: eks-sample-linux-deployment
   namespace: kataokaap5
   labels:
-    app: eks-sample-linux-app2
+    app: eks-sample-linux-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: eks-sample-linux-app2
+      app: eks-sample-linux-app
   template:
     metadata:
       labels:
-        app: eks-sample-linux-app2
+        app: eks-sample-linux-app
     spec:
       serviceAccountName: aws-load-balancer-controller
       affinity:

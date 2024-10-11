@@ -28,7 +28,7 @@ spec:
                 - arm64
       containers:
       - name: nginx
-        image: 095817875435.dkr.ecr.ap-northeast-1.amazonaws.com/kataokaecr5:latest
+        image: 992382571495.dkr.ecr.ap-northeast-1.amazonaws.com/argocd:v1.0
         ports:
         - name: http
           containerPort: 80

@@ -15,7 +15,7 @@ spec:
       labels:
         app: eks-sample-linux-app
     spec:
-      # serviceAccountName: aws-load-balancer-controller
+      serviceAccountName: aws-load-balancer-controller
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
